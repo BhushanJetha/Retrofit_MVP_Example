@@ -1,0 +1,18 @@
+package com.bhushan.retrofit_mvp_example.service;
+
+import com.bhushan.retrofit_mvp_example.model.Data;
+
+import java.util.List;
+
+import retrofit2.Call;
+import retrofit2.http.GET;
+import retrofit2.http.Path;
+
+public interface CountryAPI {
+
+    @GET("country/get/all")
+    Call<Data> getResults();
+
+    @GET("country/get/iso2code/{alpha2_code}")
+    Call<Data> getByAlpha2Code(@Path("alpha2_code") String alpha2_code);
+}
