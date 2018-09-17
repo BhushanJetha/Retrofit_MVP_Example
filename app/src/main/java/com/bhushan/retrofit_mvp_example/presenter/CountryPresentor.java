@@ -4,9 +4,7 @@ import com.bhushan.retrofit_mvp_example.model.Country;
 import com.bhushan.retrofit_mvp_example.model.Data;
 import com.bhushan.retrofit_mvp_example.service.CountryService;
 import com.bhushan.retrofit_mvp_example.view.CountryView;
-
 import java.util.List;
-
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;

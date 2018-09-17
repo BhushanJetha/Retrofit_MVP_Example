@@ -3,11 +3,9 @@ package com.bhushan.retrofit_mvp_example.view;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
-
 import com.bhushan.retrofit_mvp_example.R;
 import com.bhushan.retrofit_mvp_example.model.Country;
 import com.bhushan.retrofit_mvp_example.presenter.CountryPresentor;
-
 import java.util.List;
 
 public class MainActivity extends AppCompatActivity implements  CountryView{

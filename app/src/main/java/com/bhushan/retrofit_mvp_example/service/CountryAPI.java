@@ -1,9 +1,6 @@
 package com.bhushan.retrofit_mvp_example.service;
 
 import com.bhushan.retrofit_mvp_example.model.Data;
-
-import java.util.List;
-
 import retrofit2.Call;
 import retrofit2.http.GET;
 import retrofit2.http.Path;

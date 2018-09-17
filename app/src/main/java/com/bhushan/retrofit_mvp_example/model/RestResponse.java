@@ -1,7 +1,6 @@
 package com.bhushan.retrofit_mvp_example.model;
 
 import com.google.gson.annotations.SerializedName;
-
 import java.util.List;
 
 public class RestResponse {
